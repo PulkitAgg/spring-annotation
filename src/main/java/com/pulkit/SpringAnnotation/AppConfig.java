@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages="com.pulkit.SpringAnnotation")
+@ComponentScan(basePackages="com.pulkit.SpringAnnotation") // use comma separated package name if we have more than 2
 public class AppConfig {
 	
 //	@Bean
