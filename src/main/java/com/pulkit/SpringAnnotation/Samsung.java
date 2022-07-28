@@ -1,7 +1,9 @@
 package com.pulkit.SpringAnnotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component // default name is "samsung" (non qualified and de capitalized) ,for giving your name use @Component("yourName")
 public class Samsung {
 	
 	@Autowired
